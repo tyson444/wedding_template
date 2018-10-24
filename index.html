@@ -612,10 +612,18 @@
     var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
 
     // default example
-    simplyCountdown('.simply-countdown-one', {
+/*    simplyCountdown('.simply-countdown-one', {
         year: d.getFullYear(),
         month: d.getMonth() + 1,
         day: d.getDate()
+    });*/
+
+    // default example
+    simplyCountdown('.simply-countdown-one', {
+        year: '2019',
+        month: '04',
+        day: '20',
+        hours : '11'
     });
 
     //jQuery example
